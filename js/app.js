@@ -39,3 +39,10 @@ function embaralha(lista) {
             [lista[indiceAleatorio], lista[indice - 1]];
     }
 }
+
+function reiniciar() {
+    amigos = [];
+    document.getElementById('lista-amigos').innerHTML = '';
+    document.getElementById('lista-sorteio').innerHTML = '';
+    document.getElementById('nome-amigo').value = '';
+}
